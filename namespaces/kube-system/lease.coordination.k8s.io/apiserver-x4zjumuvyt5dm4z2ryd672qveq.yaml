@@ -1,0 +1,12 @@
+apiVersion: coordination.k8s.io/v1
+kind: Lease
+metadata:
+  labels:
+    apiserver.kubernetes.io/identity: kube-apiserver
+    kubernetes.io/hostname: testkind-control-plane
+  name: apiserver-x4zjumuvyt5dm4z2ryd672qveq
+  namespace: kube-system
+spec:
+  holderIdentity: apiserver-x4zjumuvyt5dm4z2ryd672qveq_aef1ca5a-ecd2-4676-a6d7-2a58551555ec
+  leaseDurationSeconds: 3600
+  renewTime: "2024-07-17T13:48:13.575462Z"

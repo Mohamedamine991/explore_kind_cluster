@@ -1,0 +1,25 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:24Z"
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{coredns}
+  kind: Pod
+  name: coredns-5d78c9869d-4xxpr
+  namespace: kube-system
+  resourceVersion: "393"
+  uid: 389aabbe-527b-498b-af72-d29b45109923
+kind: Event
+lastTimestamp: "2024-07-17T13:26:24Z"
+message: Started container coredns
+metadata:
+  name: coredns-5d78c9869d-4xxpr.17e30300d34ecb2e
+  namespace: kube-system
+reason: Started
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: kubelet
+  host: testkind-control-plane
+type: Normal

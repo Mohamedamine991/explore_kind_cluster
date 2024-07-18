@@ -1,0 +1,25 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:19Z"
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{kube-proxy}
+  kind: Pod
+  name: kube-proxy-6zzrr
+  namespace: kube-system
+  resourceVersion: "344"
+  uid: 868eadf7-e75d-4560-9ead-bea85dde175d
+kind: Event
+lastTimestamp: "2024-07-17T13:26:19Z"
+message: Container image "registry.k8s.io/kube-proxy:v1.27.3" already present on machine
+metadata:
+  name: kube-proxy-6zzrr.17e302ffb7b0fc8d
+  namespace: kube-system
+reason: Pulled
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: kubelet
+  host: testkind-control-plane
+type: Normal

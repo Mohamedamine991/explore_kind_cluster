@@ -1,0 +1,23 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:21Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:21Z"
+deprecatedSource:
+  component: kubelet
+  host: testkind-control-plane
+eventTime: null
+kind: Event
+metadata:
+  name: kindnet-6rjhl.17e303002059bc3d
+  namespace: kube-system
+note: Created container kindnet-cni
+reason: Created
+regarding:
+  apiVersion: v1
+  fieldPath: spec.containers{kindnet-cni}
+  kind: Pod
+  name: kindnet-6rjhl
+  namespace: kube-system
+  resourceVersion: "345"
+  uid: 5334db75-0db0-47a4-ad00-4071bf1bb763
+type: Normal

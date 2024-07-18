@@ -1,0 +1,21 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:19Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:19Z"
+deprecatedSource:
+  component: default-scheduler
+eventTime: null
+kind: Event
+metadata:
+  name: kindnet-6rjhl.17e302ff9d55fcc0
+  namespace: kube-system
+note: Successfully assigned kube-system/kindnet-6rjhl to testkind-control-plane
+reason: Scheduled
+regarding:
+  apiVersion: v1
+  kind: Pod
+  name: kindnet-6rjhl
+  namespace: kube-system
+  resourceVersion: "341"
+  uid: 5334db75-0db0-47a4-ad00-4071bf1bb763
+type: Normal

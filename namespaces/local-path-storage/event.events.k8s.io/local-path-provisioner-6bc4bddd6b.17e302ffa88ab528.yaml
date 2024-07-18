@@ -1,0 +1,21 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:19Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:19Z"
+deprecatedSource:
+  component: replicaset-controller
+eventTime: null
+kind: Event
+metadata:
+  name: local-path-provisioner-6bc4bddd6b.17e302ffa88ab528
+  namespace: local-path-storage
+note: 'Created pod: local-path-provisioner-6bc4bddd6b-qcgwl'
+reason: SuccessfulCreate
+regarding:
+  apiVersion: apps/v1
+  kind: ReplicaSet
+  name: local-path-provisioner-6bc4bddd6b
+  namespace: local-path-storage
+  resourceVersion: "330"
+  uid: c1b1333d-ac5f-495b-878d-800cffdcb84c
+type: Normal

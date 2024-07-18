@@ -1,0 +1,21 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:19Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:19Z"
+deprecatedSource:
+  component: deployment-controller
+eventTime: null
+kind: Event
+metadata:
+  name: local-path-provisioner.17e302ff9987ac04
+  namespace: local-path-storage
+note: Scaled up replica set local-path-provisioner-6bc4bddd6b to 1
+reason: ScalingReplicaSet
+regarding:
+  apiVersion: apps/v1
+  kind: Deployment
+  name: local-path-provisioner
+  namespace: local-path-storage
+  resourceVersion: "268"
+  uid: c19e5d49-2a3a-4c0d-aac7-bcd3dc39c241
+type: Normal

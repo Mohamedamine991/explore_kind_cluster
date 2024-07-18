@@ -1,0 +1,21 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:05Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:05Z"
+deprecatedSource:
+  component: kube-controller-manager
+eventTime: null
+kind: Event
+metadata:
+  name: kube-controller-manager.17e302fc664406e8
+  namespace: kube-system
+note: testkind-control-plane_ab12686e-49bf-4bfa-bdcd-89548754d613 became leader
+reason: LeaderElection
+regarding:
+  apiVersion: coordination.k8s.io/v1
+  kind: Lease
+  name: kube-controller-manager
+  namespace: kube-system
+  resourceVersion: "202"
+  uid: 38858b13-1cad-402d-b659-7354e5935e20
+type: Normal

@@ -1,0 +1,21 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:22Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:22Z"
+deprecatedSource:
+  component: default-scheduler
+eventTime: null
+kind: Event
+metadata:
+  name: coredns-5d78c9869d-7qnr9.17e30300618ed3c6
+  namespace: kube-system
+note: Successfully assigned kube-system/coredns-5d78c9869d-7qnr9 to testkind-control-plane
+reason: Scheduled
+regarding:
+  apiVersion: v1
+  kind: Pod
+  name: coredns-5d78c9869d-7qnr9
+  namespace: kube-system
+  resourceVersion: "372"
+  uid: 1efaceb4-1fcf-4720-89ff-06263e1b2e91
+type: Normal

@@ -1,0 +1,11 @@
+apiVersion: coordination.k8s.io/v1
+kind: Lease
+metadata:
+  name: kube-controller-manager
+  namespace: kube-system
+spec:
+  acquireTime: "2024-07-17T13:26:05.651003Z"
+  holderIdentity: testkind-control-plane_ab12686e-49bf-4bfa-bdcd-89548754d613
+  leaseDurationSeconds: 15
+  leaseTransitions: 0
+  renewTime: "2024-07-17T13:48:20.361168Z"

@@ -1,0 +1,21 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:06Z"
+involvedObject:
+  kind: Node
+  name: testkind-control-plane
+  uid: testkind-control-plane
+kind: Event
+lastTimestamp: "2024-07-17T13:26:06Z"
+message: Starting kubelet.
+metadata:
+  name: testkind-control-plane.17e302fca4403dab
+  namespace: default
+reason: Starting
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: kubelet
+  host: testkind-control-plane
+type: Normal

@@ -1,0 +1,22 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:18Z"
+involvedObject:
+  apiVersion: v1
+  kind: Node
+  name: testkind-control-plane
+  uid: 180861bd-7ee1-4d68-8438-05aa7c5b88c7
+kind: Event
+lastTimestamp: "2024-07-17T13:26:18Z"
+message: 'Node testkind-control-plane event: Registered Node testkind-control-plane
+  in Controller'
+metadata:
+  name: testkind-control-plane.17e302ff6e65cf7e
+  namespace: default
+reason: RegisteredNode
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: node-controller
+type: Normal

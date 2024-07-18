@@ -1,0 +1,23 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:19Z"
+involvedObject:
+  apiVersion: v1
+  kind: Pod
+  name: kindnet-6rjhl
+  namespace: kube-system
+  resourceVersion: "341"
+  uid: 5334db75-0db0-47a4-ad00-4071bf1bb763
+kind: Event
+lastTimestamp: "2024-07-17T13:26:19Z"
+message: Successfully assigned kube-system/kindnet-6rjhl to testkind-control-plane
+metadata:
+  name: kindnet-6rjhl.17e302ff9d55fcc0
+  namespace: kube-system
+reason: Scheduled
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: default-scheduler
+type: Normal

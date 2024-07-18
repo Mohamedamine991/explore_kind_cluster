@@ -1,0 +1,19 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:22Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:22Z"
+deprecatedSource:
+  component: kubelet
+  host: testkind-control-plane
+eventTime: null
+kind: Event
+metadata:
+  name: testkind-control-plane.17e3030060219ea1
+  namespace: default
+note: 'Node testkind-control-plane status is now: NodeReady'
+reason: NodeReady
+regarding:
+  kind: Node
+  name: testkind-control-plane
+  uid: testkind-control-plane
+type: Normal

@@ -1,0 +1,23 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:24Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:24Z"
+deprecatedSource:
+  component: kubelet
+  host: testkind-control-plane
+eventTime: null
+kind: Event
+metadata:
+  name: local-path-provisioner-6bc4bddd6b-qcgwl.17e30300e3250130
+  namespace: local-path-storage
+note: Started container local-path-provisioner
+reason: Started
+regarding:
+  apiVersion: v1
+  fieldPath: spec.containers{local-path-provisioner}
+  kind: Pod
+  name: local-path-provisioner-6bc4bddd6b-qcgwl
+  namespace: local-path-storage
+  resourceVersion: "395"
+  uid: a5e3ed7f-8a8a-4386-93f4-c5105c871344
+type: Normal

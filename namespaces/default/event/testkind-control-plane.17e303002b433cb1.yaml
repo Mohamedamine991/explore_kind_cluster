@@ -1,0 +1,17 @@
+action: StartKubeProxy
+apiVersion: v1
+eventTime: "2024-07-17T13:26:21.846370Z"
+firstTimestamp: null
+involvedObject:
+  kind: Node
+  name: testkind-control-plane
+  uid: testkind-control-plane
+kind: Event
+lastTimestamp: null
+metadata:
+  name: testkind-control-plane.17e303002b433cb1
+  namespace: default
+reason: Starting
+reportingComponent: kube-proxy
+reportingInstance: kube-proxy-testkind-control-plane
+type: Normal

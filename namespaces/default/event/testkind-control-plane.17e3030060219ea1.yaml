@@ -1,0 +1,21 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:22Z"
+involvedObject:
+  kind: Node
+  name: testkind-control-plane
+  uid: testkind-control-plane
+kind: Event
+lastTimestamp: "2024-07-17T13:26:22Z"
+message: 'Node testkind-control-plane status is now: NodeReady'
+metadata:
+  name: testkind-control-plane.17e3030060219ea1
+  namespace: default
+reason: NodeReady
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: kubelet
+  host: testkind-control-plane
+type: Normal

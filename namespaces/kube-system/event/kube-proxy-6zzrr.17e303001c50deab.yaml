@@ -1,0 +1,25 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:21Z"
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{kube-proxy}
+  kind: Pod
+  name: kube-proxy-6zzrr
+  namespace: kube-system
+  resourceVersion: "344"
+  uid: 868eadf7-e75d-4560-9ead-bea85dde175d
+kind: Event
+lastTimestamp: "2024-07-17T13:26:21Z"
+message: Started container kube-proxy
+metadata:
+  name: kube-proxy-6zzrr.17e303001c50deab
+  namespace: kube-system
+reason: Started
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: kubelet
+  host: testkind-control-plane
+type: Normal

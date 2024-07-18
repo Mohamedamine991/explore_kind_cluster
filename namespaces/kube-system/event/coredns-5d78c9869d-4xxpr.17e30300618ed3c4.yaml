@@ -1,0 +1,23 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:22Z"
+involvedObject:
+  apiVersion: v1
+  kind: Pod
+  name: coredns-5d78c9869d-4xxpr
+  namespace: kube-system
+  resourceVersion: "366"
+  uid: 389aabbe-527b-498b-af72-d29b45109923
+kind: Event
+lastTimestamp: "2024-07-17T13:26:22Z"
+message: Successfully assigned kube-system/coredns-5d78c9869d-4xxpr to testkind-control-plane
+metadata:
+  name: coredns-5d78c9869d-4xxpr.17e30300618ed3c4
+  namespace: kube-system
+reason: Scheduled
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: default-scheduler
+type: Normal

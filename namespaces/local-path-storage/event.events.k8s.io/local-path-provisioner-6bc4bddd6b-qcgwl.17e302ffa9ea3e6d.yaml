@@ -1,0 +1,22 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:19Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:19Z"
+deprecatedSource:
+  component: default-scheduler
+eventTime: null
+kind: Event
+metadata:
+  name: local-path-provisioner-6bc4bddd6b-qcgwl.17e302ffa9ea3e6d
+  namespace: local-path-storage
+note: '0/1 nodes are available: 1 node(s) had untolerated taint {node.kubernetes.io/not-ready:
+  }. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling..'
+reason: FailedScheduling
+regarding:
+  apiVersion: v1
+  kind: Pod
+  name: local-path-provisioner-6bc4bddd6b-qcgwl
+  namespace: local-path-storage
+  resourceVersion: "361"
+  uid: a5e3ed7f-8a8a-4386-93f4-c5105c871344
+type: Warning

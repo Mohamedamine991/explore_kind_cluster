@@ -1,0 +1,21 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:19Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:19Z"
+deprecatedSource:
+  component: daemonset-controller
+eventTime: null
+kind: Event
+metadata:
+  name: kindnet.17e302ff9ce9d5a6
+  namespace: kube-system
+note: 'Created pod: kindnet-6rjhl'
+reason: SuccessfulCreate
+regarding:
+  apiVersion: apps/v1
+  kind: DaemonSet
+  name: kindnet
+  namespace: kube-system
+  resourceVersion: "262"
+  uid: 2a892ae6-09a2-48c4-945b-9d0f7e19ba99
+type: Normal

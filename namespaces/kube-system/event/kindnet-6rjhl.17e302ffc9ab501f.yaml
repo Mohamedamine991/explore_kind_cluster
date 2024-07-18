@@ -1,0 +1,26 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:20Z"
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{kindnet-cni}
+  kind: Pod
+  name: kindnet-6rjhl
+  namespace: kube-system
+  resourceVersion: "345"
+  uid: 5334db75-0db0-47a4-ad00-4071bf1bb763
+kind: Event
+lastTimestamp: "2024-07-17T13:26:20Z"
+message: Container image "docker.io/kindest/kindnetd:v20230511-dc714da8" already present
+  on machine
+metadata:
+  name: kindnet-6rjhl.17e302ffc9ab501f
+  namespace: kube-system
+reason: Pulled
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: kubelet
+  host: testkind-control-plane
+type: Normal

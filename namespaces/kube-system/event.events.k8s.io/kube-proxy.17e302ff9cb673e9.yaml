@@ -1,0 +1,21 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:19Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:19Z"
+deprecatedSource:
+  component: daemonset-controller
+eventTime: null
+kind: Event
+metadata:
+  name: kube-proxy.17e302ff9cb673e9
+  namespace: kube-system
+note: 'Created pod: kube-proxy-6zzrr'
+reason: SuccessfulCreate
+regarding:
+  apiVersion: apps/v1
+  kind: DaemonSet
+  name: kube-proxy
+  namespace: kube-system
+  resourceVersion: "233"
+  uid: f5b15d00-df97-46be-9765-8e428492692c
+type: Normal

@@ -1,0 +1,23 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:19Z"
+involvedObject:
+  apiVersion: v1
+  kind: Pod
+  name: kube-proxy-6zzrr
+  namespace: kube-system
+  resourceVersion: "340"
+  uid: 868eadf7-e75d-4560-9ead-bea85dde175d
+kind: Event
+lastTimestamp: "2024-07-17T13:26:19Z"
+message: Successfully assigned kube-system/kube-proxy-6zzrr to testkind-control-plane
+metadata:
+  name: kube-proxy-6zzrr.17e302ff9d53edae
+  namespace: kube-system
+reason: Scheduled
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: default-scheduler
+type: Normal

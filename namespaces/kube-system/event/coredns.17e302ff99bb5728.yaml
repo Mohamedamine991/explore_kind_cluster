@@ -1,0 +1,23 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: "2024-07-17T13:26:19Z"
+involvedObject:
+  apiVersion: apps/v1
+  kind: Deployment
+  name: coredns
+  namespace: kube-system
+  resourceVersion: "229"
+  uid: 65e58d6e-47b2-4daa-90a7-7b8c55402532
+kind: Event
+lastTimestamp: "2024-07-17T13:26:19Z"
+message: Scaled up replica set coredns-5d78c9869d to 2
+metadata:
+  name: coredns.17e302ff99bb5728
+  namespace: kube-system
+reason: ScalingReplicaSet
+reportingComponent: ""
+reportingInstance: ""
+source:
+  component: deployment-controller
+type: Normal

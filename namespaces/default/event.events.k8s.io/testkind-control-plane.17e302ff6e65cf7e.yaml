@@ -1,0 +1,20 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:18Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:18Z"
+deprecatedSource:
+  component: node-controller
+eventTime: null
+kind: Event
+metadata:
+  name: testkind-control-plane.17e302ff6e65cf7e
+  namespace: default
+note: 'Node testkind-control-plane event: Registered Node testkind-control-plane in
+  Controller'
+reason: RegisteredNode
+regarding:
+  apiVersion: v1
+  kind: Node
+  name: testkind-control-plane
+  uid: 180861bd-7ee1-4d68-8438-05aa7c5b88c7
+type: Normal

@@ -1,0 +1,23 @@
+apiVersion: events.k8s.io/v1
+deprecatedCount: 1
+deprecatedFirstTimestamp: "2024-07-17T13:26:24Z"
+deprecatedLastTimestamp: "2024-07-17T13:26:24Z"
+deprecatedSource:
+  component: kubelet
+  host: testkind-control-plane
+eventTime: null
+kind: Event
+metadata:
+  name: coredns-5d78c9869d-4xxpr.17e30300d34ecb2e
+  namespace: kube-system
+note: Started container coredns
+reason: Started
+regarding:
+  apiVersion: v1
+  fieldPath: spec.containers{coredns}
+  kind: Pod
+  name: coredns-5d78c9869d-4xxpr
+  namespace: kube-system
+  resourceVersion: "393"
+  uid: 389aabbe-527b-498b-af72-d29b45109923
+type: Normal
